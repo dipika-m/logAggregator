@@ -13,17 +13,13 @@ Here’s one example line:
 * User ID here is the 3rd URI path element is a user id, e.g., 71f28176 above
 * Assume that a user session is defined as a series of page accesses during which all *consecutive* page accesses are <= 10 minutes apart. So e.g. if a given user accesses pages at time t1=13:00, t2=13:05, t3=13:14, t4=14:11, and t5=14:19, then they are defined to have had 2 sessions, the first with requests at times t1-t3 and the second with requests at times t4-t5, per the following table:
 
-tprev  tcurr delta session #
+| tprev | tcurr | delta | session # |
 -----  ----- -----  ---------
-N/A     13:00      N/A       1
-
-13:00   13:05       5 min     1
-
-13:05   13:14       9 min      1
-
-13:14   14:11       57 min      2
-
-14:11   14:19     8 min         2
+|N/A  |   13:00  |    N/A   |    1|
+|13:00 |  13:05 |      5 min |    1|
+|13:05 |  13:14 |      9 min  |    1|
+|13:14  | 14:11  |     57 min |     2|
+|14:11  | 14:19 |    8 min     |    2|
 
 * After aggregating all data from all log files, a report is generated to the standard output with the following information:
 * Total number of unique users who visited
