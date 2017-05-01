@@ -34,11 +34,11 @@ Here’s an example report with only 3 instead of 5 users:
 
 Total unique users: 27
 Top users:
-|id        |      # pages |# sess| longest|shortest|
-|----------|--------------|------|--------|--------|
-|71f28176  |     75       |    3 |    35  |    1   |
-|41f58122    |    65 |     4   |    60   |   10|
-|58122233   |     44 |     2  |     121  |   3|
+|id |#pages |#sess| longest| shortest|
+|---------|--------------|------|--------|--------|
+|71f28176|     75|    3|    35|    1|
+|41f58122|    65|     4|    60|   10|
+|58122233|     44|     2 |     121|   3|
 
 
 ![alt text](https://github.com/dipika-m/logAggregator/blob/master/result/Screen%20Shot%202017-05-01%20at%204.37.01%20AM.png "Sample")
