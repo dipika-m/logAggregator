@@ -46,4 +46,4 @@ id              # pages # sess  longest shortest
 
 
 ![alt text](https://github.com/dipika-m/logAggregator/blob/master/result/Screen%20Shot%202017-05-01%20at%204.37.01%20AM.png "Sample")
-![alt text](hhttps://github.com/dipika-m/logAggregator/blob/master/result/Screen%20Shot%202017-05-01%20at%204.38.27%20AM.png "Sample2")
+![alt text](https://github.com/dipika-m/logAggregator/blob/master/result/Screen%20Shot%202017-05-01%20at%204.38.27%20AM.png "Sample2")
